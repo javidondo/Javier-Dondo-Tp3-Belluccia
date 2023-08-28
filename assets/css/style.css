@@ -567,6 +567,10 @@ section {
   filter: none;
 }
 
+.clients h3, h4, li, ul {
+  color: #ee6767;
+  }
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -827,6 +831,10 @@ section {
   line-height: 24px;
   font-size: 14px;
 }
+
+.services h1, h2, h3, h4, p, li, ul {
+  color: #ffffff;
+  }
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1102,7 +1110,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #d1d1d1;
+  background: #ffffff;
   text-align: center;
   border-radius: 8px;
   position: relative;
@@ -1185,6 +1193,22 @@ section {
   background: #d1d1d1;
 }
 
+.pricing h3 {
+color: #111;
+}
+
+.pricing h4 {
+  color: #111;
+  }
+
+  .pricing li {
+    color: #111;
+    }
+
+    .pricing ul {
+      color: #111;
+      }
+      
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
