@@ -728,12 +728,12 @@ section {
 }
 
 .tabs .nav-link:hover {
-  color: #ff9741;
+  color: #ffffff;
 }
 
 .tabs .nav-link.active {
   background: #ff9741;
-  color: #fff;
+  color: #ff9741;
   border-color: #ff9741;
 }
 
@@ -782,6 +782,34 @@ section {
 .tabs .tab-pane p:last-child {
   margin-bottom: 0;
 }
+
+.tabs h1{
+  color: #ff9741
+  }
+  
+  .tabs h2{
+  color: #ff9741
+  }
+  
+  .tabs h3{
+  color: #ff9741
+  }
+  
+  .tabs h5{
+  color: #ff9741
+  }
+  
+  .tabs p{
+  color: #ff9741
+  }
+  
+  .tabs ul{
+  color: #ff9741
+  }
+  
+  .tabs li{
+  color: #ff9741
+  }
 
 /*--------------------------------------------------------------
 # Services
@@ -1103,6 +1131,30 @@ section {
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #ff9741;
+}
+
+.testimonials h1 {
+  color: #ff9741;
+}
+
+.testimonials h2 {
+  color: #ff9741;
+}
+
+.testimonials h3 {
+  color: #ff9741;
+}
+
+.testimonials h4 {
+  color: #ff9741;
+}
+
+.testimonials li {
+  color: #ff9741;
+}
+
+.testimonials p {
+  color: #ff9741;
 }
 
 /*--------------------------------------------------------------
