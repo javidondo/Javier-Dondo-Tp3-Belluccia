@@ -2122,3 +2122,10 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.row-team{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 25px;
+}
