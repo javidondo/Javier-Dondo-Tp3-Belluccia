@@ -697,6 +697,10 @@ section {
   font-size: 14px;
 }
 
+.counts p{
+  color: #ff9741
+  }
+
 /*--------------------------------------------------------------
 # Tabs
 --------------------------------------------------------------*/
@@ -829,7 +833,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  color: #ff9741;
+  color: #ffffff;
   font-size: 40px;
   line-height: 0;
 }
@@ -986,6 +990,38 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
 }
+
+.tabs h1{
+  color: #ff9741
+  }
+  
+  .portfolio h2{
+  color: #ff9741
+  }
+  
+  .portfolio h3{
+  color: #ff9741
+  }
+  
+  .portfolio h4{
+  color: #ff9741
+  }
+  
+  .portfolio h5{
+  color: #ff9741
+  }
+  
+  .portfolio p{
+  color: #ff9741
+  }
+  
+  .portfolio ul{
+  color: #ff9741
+  }
+  
+  .portfolio li{
+  color: #ff9741
+  }
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -1526,6 +1562,39 @@ color: #111;
     transform: rotate(360deg);
   }
 }
+
+.contact h1{
+  color: #ff9741
+  }
+  
+  .contact h2{
+  color: #ff9741
+  }
+  
+  .contact h3{
+  color: #ff9741
+  }
+  
+  .contact h4{
+  color: #ff9741
+  }
+  
+  .contact h5{
+  color: #ff9741
+  }
+  
+  .contact p{
+  color: #ff9741
+  }
+  
+  .contact ul{
+  color: #ff9741
+  }
+  
+  .contact li{
+  color: #ff9741
+  }
+
 
 /*--------------------------------------------------------------
 # Blog
