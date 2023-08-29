@@ -103,7 +103,7 @@ h6 {
 }
 
 #header .logo a span {
-  color: #ff9741;
+  color: #bc162a;
 }
 
 #header .logo img {
@@ -115,20 +115,22 @@ h6 {
 --------------------------------------------------------------*/
 .get-started-btn {
   margin-left: 30px;
-  background: #ff9741;
-  color: #fff;
-  border-radius: 4px;
+  background: #bc162a;
+  color: #ffffff;
+  border-radius: 10px;
   padding: 8px 25px;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
   font-weight: 600;
   display: inline-block;
+  border: 2px solid #bc162a;
 }
 
 .get-started-btn:hover {
-  background: #111111;
-  color: #fff;
+  background: #fff6db;
+  color: #bc162a;
+  border-color: #bc162a;
 }
 
 @media (max-width: 992px) {
@@ -374,7 +376,6 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -386,13 +387,13 @@ h6 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #ffffff;
+  color: #bc162a;
 }
 
 #hero h2 {
-  color: #ffffff;
-  margin: 10px 0 0 0;
-  font-size: 24px;
+  color: #bc162a;
+  margin: 35px 0 0 0;
+  font-size: 16px;
 }
 
 #hero .btn-get-started {
@@ -402,17 +403,18 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
-  border-radius: 4px;
+  border-radius: 10px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #fff;
-  background: #ff9741;
-  border: 2px solid #ff9741;
+  color: #fff6db;
+  background: #bc162a;
+  border: 2px solid #bc162a;
 }
 
 #hero .btn-get-started:hover {
+  color: #bc162a;
   background: transparent;
-  border-color: #fff;
+  border-color: #bc162a;
 }
 
 @media (max-width: 768px) {
