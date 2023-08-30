@@ -1167,50 +1167,29 @@ section {
   padding: 30px;
   margin: 30px 15px;
   min-height: 200px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
-  background: #fff;
+  background: #bc162a;
   border-radius: 15px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 10px;
-  border: 6px solid #fff;
   float: left;
   margin: 0 10px 0 0;
 }
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: medium;
   margin: 25px 0 5px 0;
-  color: #111;
+  color: #fff6db;
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 10px;
   color: #999;
   margin: 0;
-}
-
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
-  color: #fceaea;
-  font-size: 26px;
-}
-
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
 }
 
 .testimonials .testimonial-item p {
@@ -1240,15 +1219,18 @@ section {
 }
 
 .testimonials h2 {
-  color: #ff9741;
+  color: #bc162a;
 }
 
 .testimonials h3 {
-  color: #ff9741;
+  color: #bc162a;
 }
 
 .testimonials h4 {
-  color: #ff9741;
+  color: #bc162a;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2;
 }
 
 .testimonials li {
@@ -1256,7 +1238,7 @@ section {
 }
 
 .testimonials p {
-  color: #ff9741;
+  color: #fff6db;
 }
 
 /*--------------------------------------------------------------
@@ -1469,8 +1451,16 @@ color: #bc162a;
 }
 
 .team .member .social a:hover {
-  background: #111111;
+  background: #bc162a;
 }
+
+.team p{
+  color: #fff6db;
+  line-height: 2;
+  font-size: 14px;
+  font-weight: 350;
+}
+
 
 .team .member .social i {
   font-size: 18px;
@@ -1506,6 +1496,8 @@ color: #bc162a;
   opacity: 1;
   bottom: 15px;
 }
+
+
 
 /*--------------------------------------------------------------
 # Contact
