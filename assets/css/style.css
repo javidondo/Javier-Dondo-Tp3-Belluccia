@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #ffffff;
+  color: #e41b1b;
 }
 
 a {
@@ -189,7 +189,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ff9741;
+  color: #bc162a;
 }
 
 .navbar .dropdown ul {
@@ -460,11 +460,12 @@ section {
 
 .section-title h2 {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: medium;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  color: #fff6db;
 }
 
 .section-title h2::after {
@@ -489,7 +490,7 @@ section {
 
 .section-bg:before {
   content: "";
-  background: #ff9741;
+  background: #bc162a;
   position: absolute;
   bottom: 60px;
   top: 60px;
@@ -578,6 +579,11 @@ section {
 .clients h3, h4, li, ul {
   color: #ee6767;
   }
+
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 0px;
+    }
 
 /*--------------------------------------------------------------
 # About
@@ -810,14 +816,25 @@ section {
   .tabs h3{
   color: #fff6db
   }
+
+  .tabs h3{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    line-height: 1.3;
+    }
   
   .tabs h5{
-  color: #ff9741
+  color: #fff6db
   }
   
   .tabs p{
-  color: #ff9741
+  color: #fff6db
   }
+
+  .tabs p{
+    font-size: 16px;
+    line-height: 2;
+    }
   
   .tabs ul{
   color: #ff9741
@@ -831,14 +848,18 @@ section {
     padding: 100px;
     }
 
+
+
+
+    
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 30px;
-  border-radius: 6px;
-  background: #bc162a;
+  border-radius: 14px;
+  background: #fff6db;
   transition: 0.3s;
   position: relative;
 }
@@ -846,7 +867,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  color: #ffffff;
+  color: #bc162a;
   font-size: 40px;
   line-height: 0;
 }
@@ -859,7 +880,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #fff;
+  color: #bc162a;
   transition: 0.3s;
 }
 
@@ -877,10 +898,35 @@ section {
   font-size: 14px;
 }
 
-.services h1, h2, h3, h4, p, li, ul {
-  color: #ffffff;
+.services h4, p, li, ul {
+  color: #bc162a;
   }
 
+  .services h3 {
+    color: #fff6db;
+    font-size: 14px;
+    line-height: 26px;
+    }
+
+  .services h2 {
+    color: #fff6db;
+    }
+  
+    .services h2 {
+      color: #fff6db;
+      }
+    
+
+
+    .services p {
+      color: #bc162a;
+      }
+    
+
+      .services  {
+        background-color: #bc162a;
+      }
+      
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1212,9 +1258,9 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #ffffff;
+  background: #fff6db;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 15px;
   position: relative;
   overflow: hidden;
 }
@@ -1276,8 +1322,8 @@ section {
 .pricing .box .btn-buy {
   display: inline-block;
   padding: 10px 70px 12px 70px;
-  border-radius: 12px;
-  color: #ff9741;
+  border-radius: 120px;
+  color: #bc162a;
   transition: none;
   font-size: 15px;
   font-weight: 400;
@@ -1285,10 +1331,11 @@ section {
   font-weight: 1000;
   transition: 0.3s;
   border: 3px solid rgba(250, 250, 250, 0.3);
+  border-color: #bc162a;
 }
 
 .pricing .box .btn-buy:hover {
-  border-color: #ff9741;
+  border-color: #bc162a;
 }
 
 .pricing .featured {
@@ -1296,15 +1343,19 @@ section {
 }
 
 .pricing h3 {
-color: #111;
+color: #bc162a;
 }
 
 .pricing h4 {
-  color: #111;
+  color: #bc162a;
   }
 
+  .pricing p {
+    color: #fff6db;
+    }
+
   .pricing li {
-    color: #111;
+    color: #bc162a;
     }
 
     .pricing ul {
