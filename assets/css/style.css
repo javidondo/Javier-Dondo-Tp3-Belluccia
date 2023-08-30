@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #e41b1b;
 }
 
@@ -30,7 +30,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+p,
+li {
+  font-family: "Montserrat", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -1056,7 +1062,7 @@ section {
   }
   
   .portfolio h2{
-  color: #ff9741
+  color: #bc162a
   }
   
   .portfolio h3{
@@ -1072,7 +1078,7 @@ section {
   }
   
   .portfolio p{
-  color: #ff9741
+  color: #bc162a
   }
   
   .portfolio ul{
