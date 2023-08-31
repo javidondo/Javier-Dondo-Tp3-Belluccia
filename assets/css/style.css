@@ -1541,7 +1541,7 @@ color: #bc162a;
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ff9741;
+  background: #bc162a;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1604,7 +1604,7 @@ color: #bc162a;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ff9741;
+  background: #bc162a;
   border: 0;
   padding: 10px 32px;
   color: #fff;
@@ -1613,7 +1613,7 @@ color: #bc162a;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ff9741;
+  background: #bc162a;
 }
 
 @keyframes animate-loading {
@@ -1627,35 +1627,35 @@ color: #bc162a;
 }
 
 .contact h1{
-  color: #ff9741
+  color: #bc162a
   }
   
   .contact h2{
-  color: #ff9741
+  color: #bc162a
   }
   
   .contact h3{
-  color: #ff9741
+  color: #bc162a
   }
   
   .contact h4{
-  color: #ff9741
+  color: #bc162a
   }
   
   .contact h5{
-  color: #ff9741
+  color: #bc162a
   }
   
   .contact p{
-  color: #ff9741
+  color: #bc162a
   }
   
   .contact ul{
-  color: #ff9741
+  color: #bc162a
   }
   
   .contact li{
-  color: #ff9741
+  color: #bc162a
   }
 
 
