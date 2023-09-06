@@ -109,7 +109,7 @@ li {
 }
 
 #header .logo a span {
-  color: #bc162a;
+  color: #1F192F;
 }
 
 #header .logo img {
@@ -195,7 +195,7 @@ li {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #bc162a;
+  color: #1F192F;
 }
 
 .navbar .dropdown ul {
@@ -718,7 +718,7 @@ section {
 }
 
 .tabs  {
-  background-color: #E3EACD;
+  background-color: #F9FDEB;
 }
 
 
@@ -842,7 +842,7 @@ section {
 
   .tabs {
     padding-top: 100px;
-    padding-bottom: 500px;
+    padding-bottom: 150px;
     }
 
 
@@ -1374,7 +1374,7 @@ color: #F0F7DA;
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #ff9741;
+  font-family: #2D6073;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1403,7 +1403,7 @@ color: #F0F7DA;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #e03a3c;
+  color: #2D6073;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1413,6 +1413,7 @@ color: #F0F7DA;
 .faq .faq-list a.collapsed .icon-close {
   display: none;
 }
+
 
 /*--------------------------------------------------------------
 # Team
@@ -1504,6 +1505,10 @@ color: #F0F7DA;
   bottom: 15px;
 }
 
+.faq {
+background-color: #F9FDEB;
+
+}
 
 
 /*--------------------------------------------------------------
@@ -1611,7 +1616,7 @@ color: #F0F7DA;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #bc162a;
+  background: #2D6073;
   border: 0;
   padding: 10px 32px;
   color: #fff;
@@ -1620,8 +1625,10 @@ color: #F0F7DA;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #bc162a;
+  background: #65B8A5;
 }
+
+
 
 @keyframes animate-loading {
   0% {
@@ -1638,7 +1645,7 @@ color: #F0F7DA;
   }
   
   .contact h2{
-  color: #bc162a
+  color: #1F192F
   }
   
   .contact h3{
@@ -1654,7 +1661,7 @@ color: #F0F7DA;
   }
   
   .contact p{
-  color: #bc162a
+  color: #1F192F
   }
   
   .contact ul{
@@ -1665,6 +1672,9 @@ color: #F0F7DA;
   color: #bc162a
   }
 
+  .contact {
+    background-color: #F9FDEB;
+    }
 
 /*--------------------------------------------------------------
 # Blog
