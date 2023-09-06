@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Montserrat", sans-serif;
-  color: #e41b1b;
+  color: #F0F7DA;
 }
 
 a {
@@ -265,7 +265,7 @@ li {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #111111;
+  color: #1F192F;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -328,7 +328,7 @@ li {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #ff9741;
+  color: #1F192F;
 }
 
 .navbar-mobile .getstarted,
@@ -376,7 +376,7 @@ li {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center no-repeat;
+  background-color: #F0F7DA;
   background-size: cover;
   position: relative;
   padding-top: 82px;
@@ -384,7 +384,7 @@ li {
 
 #hero:before {
   content: "";
-  position: absolute;
+  position: center;
   bottom: 0;
   top: 0;
   left: 0;
@@ -395,11 +395,11 @@ li {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #bc162a;
+  color: #2D6073;
 }
 
 #hero h2 {
-  color: #bc162a;
+  color: #2D6073;
   margin: 35px 0 0 0;
   font-size: 16px;
   line-height: 1.5;
@@ -415,15 +415,15 @@ li {
   border-radius: 10px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #fff6db;
-  background: #bc162a;
-  border: 2px solid #bc162a;
+  color: #F0F7DA;
+  background: #2D6073;
+  border: 2px solid #2D6073;
 }
 
 #hero .btn-get-started:hover {
-  color: #bc162a;
+  color: #2D6073;
   background: transparent;
-  border-color: #bc162a;
+  border-color: #2D6073;
 }
 
 @media (max-width: 768px) {
@@ -474,17 +474,6 @@ section {
   color: #fff6db;
 }
 
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #ff9741;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-
 .section-title p {
   margin-bottom: 0;
 }
@@ -496,7 +485,7 @@ section {
 
 .section-bg:before {
   content: "";
-  background: #bc162a;
+  background: #F0F7DA;
   position: absolute;
   bottom: 60px;
   top: 60px;
@@ -729,8 +718,9 @@ section {
 }
 
 .tabs  {
-  background-color: #bc162a;
+  background-color: #E3EACD;
 }
+
 
 .tabs .nav-link {
   border: 1px solid #b9b9b9;
@@ -816,7 +806,7 @@ section {
   }
   
   .tabs h2{
-  color: #ff9741
+  color: #1F192F
   }
   
   .tabs h3{
@@ -834,7 +824,7 @@ section {
   }
   
   .tabs p{
-  color: #fff6db
+  color: #1F192F
   }
 
   .tabs p{
@@ -851,7 +841,8 @@ section {
   }
 
   .tabs {
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 500px;
     }
 
 
@@ -1246,12 +1237,15 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #fff6db;
+  background: #2D6073;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 20px;
   position: relative;
   overflow: hidden;
+  padding-top: 350px;
+  margin-left: 20px;
 }
+
 
 .pricing .box h3 {
   font-weight: 400;
@@ -1310,8 +1304,8 @@ section {
 .pricing .box .btn-buy {
   display: inline-block;
   padding: 10px 70px 12px 70px;
-  border-radius: 120px;
-  color: #bc162a;
+  border-radius: 10px;
+  color: #F0F7DA;
   transition: none;
   font-size: 15px;
   font-weight: 400;
@@ -1319,11 +1313,12 @@ section {
   font-weight: 1000;
   transition: 0.3s;
   border: 3px solid rgba(250, 250, 250, 0.3);
-  border-color: #bc162a;
+  border-color: #F0F7DA;
 }
 
 .pricing .box .btn-buy:hover {
-  border-color: #bc162a;
+  border-color: #2D6073;
+  color: #F0F7DA;
 }
 
 .pricing .featured {
@@ -1331,19 +1326,31 @@ section {
 }
 
 .pricing h3 {
-color: #bc162a;
+color: #F0F7DA;
 }
 
+.pricing h1 {
+  color: #fff6db;
+  }
+
+.pricing a {
+  color: #2D6073;
+  }
+
+.pricing h2 {
+  color: #1F192F;
+  }
+
 .pricing h4 {
-  color: #bc162a;
+  color: #fff6db;
   }
 
   .pricing p {
-    color: #fff6db;
+    color: #1F192F;
     }
 
   .pricing li {
-    color: #bc162a;
+    color: #F0F7DA;
     }
 
     .pricing ul {
