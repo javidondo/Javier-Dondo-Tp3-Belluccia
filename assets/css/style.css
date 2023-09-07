@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #ff9741;
+  color: #65b8a6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff9741;
+  color: #65b8a6;
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ li {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ff9741;
+  background: #65b8a6;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -572,7 +572,7 @@ section {
 }
 
 .clients h3, h4, li, ul {
-  color: #ee6767;
+  color: #010017;
   }
 
   .clients {
@@ -864,7 +864,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  color: #bc162a;
+  color: #2d6073;
   font-size: 40px;
   line-height: 0;
 }
@@ -877,7 +877,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #bc162a;
+  color: #2d6073;
   transition: 0.3s;
 }
 
@@ -896,7 +896,7 @@ section {
 }
 
 .services h4, p, li, ul {
-  color: #bc162a;
+  color: #ffffff;
   }
 
   .services h3 {
@@ -916,12 +916,12 @@ section {
 
 
     .services p {
-      color: #bc162a;
+      color: #2d6073;
       }
     
 
       .services  {
-        background-color: #bc162a;
+        background-color: #2d6073;
       }
       
 
@@ -1247,6 +1247,7 @@ section {
 }
 
 
+
 .pricing .box h3 {
   font-weight: 400;
   padding: 15px;
@@ -1305,7 +1306,7 @@ section {
   display: inline-block;
   padding: 10px 70px 12px 70px;
   border-radius: 10px;
-  color: #F0F7DA;
+  color: #2d6073;
   transition: none;
   font-size: 15px;
   font-weight: 400;
@@ -1313,12 +1314,13 @@ section {
   font-weight: 1000;
   transition: 0.3s;
   border: 3px solid rgba(250, 250, 250, 0.3);
-  border-color: #F0F7DA;
+  background-color: #ffffff;
 }
 
 .pricing .box .btn-buy:hover {
-  border-color: #2D6073;
   color: #F0F7DA;
+  background-color: #2d6073;
+  border-color: #F0F7DA;
 }
 
 .pricing .featured {
@@ -1327,6 +1329,7 @@ section {
 
 .pricing h3 {
 color: #F0F7DA;
+
 }
 
 .pricing h1 {
@@ -1450,7 +1453,7 @@ color: #F0F7DA;
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: #ff9741;
+  background: #241e37;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1459,15 +1462,20 @@ color: #F0F7DA;
 }
 
 .team .member .social a:hover {
-  background: #bc162a;
+  background: #65b8a6;
 }
 
 .team p{
-  color: #fff6db;
+  color: #241e37;
   line-height: 2;
   font-size: 14px;
   font-weight: 350;
 }
+
+.team h2{
+  color: #241e37;
+}
+
 
 
 .team .member .social i {
@@ -2195,7 +2203,7 @@ background-color: #F9FDEB;
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #3b2513;
+  background: #2d6073;
 }
 
 #footer .footer-top .footer-contact {
@@ -2209,7 +2217,7 @@ background-color: #F9FDEB;
 }
 
 #footer .footer-top .footer-contact h3 span {
-  color: #ff9741;
+  color: #010017;
 }
 
 #footer .footer-top .footer-contact p {
@@ -2232,7 +2240,7 @@ background-color: #F9FDEB;
   display: block;
   width: 20px;
   height: 2px;
-  background: #ff9741;
+  background: #010017;
   bottom: 0;
   left: 0;
 }
@@ -2265,7 +2273,7 @@ background-color: #F9FDEB;
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #aaaaaa;
+  color: #ffffff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2311,7 +2319,7 @@ background-color: #F9FDEB;
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ff9741;
+  background: #010017;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -2343,7 +2351,7 @@ background-color: #F9FDEB;
 }
 
 #footer .social-links a:hover {
-  background: #ff9741;
+  background: #65b8a6;
   color: #fff;
   text-decoration: none;
 }
