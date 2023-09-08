@@ -2419,3 +2419,174 @@ font-weight: 450;
             padding-top: 50px;
               }
   
+
+              /*--------------------------------------------------------------
+# Nuestro servicio
+--------------------------------------------------------------*/
+
+#nuestro {
+  padding-top: 130px;
+}
+
+
+.nuestro .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+}
+
+.nuestro .member .member-img {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.nuestro .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nuestro .member .social a {
+  transition: color 0.3s;
+  color: #111111;
+  margin: 0 3px;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  background: #e03a3c;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+
+.nuestro .member .social a:hover {
+  background: #111111;
+}
+
+.nuestro .member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.nuestro .member .member-porque {
+  padding: 25px 15px;
+}
+
+.nuestro .member .member-porque h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #4B3124;
+}
+
+.nuestro .member .member-porque h3 {
+  display: block;
+  font-size: 14x;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.nuestro .member .member-porque p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #777777;
+  text-align: center;
+  padding: 0 2vh 0;
+}
+
+.nuestro .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+
+
+/*--------------------------------------------------------------
+# Member
+--------------------------------------------------------------*/
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #111111;
+  margin: 0 3px;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  background: #e03a3c;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+
+.team .member .social a:hover {
+  background: #111111;
+}
+
+.team .member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.team .member .member-porque {
+  padding: 45px 0;
+}
+
+.team .member .member-porque h4 {
+  font-weight: 800;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #4B3124;
+  text-align: center;
+  letter-spacing: 2.2px;
+}
+
+.team .member .member-porque p {
+  font-size: 14px;
+  line-height: 160%;
+  color: #4B3124;
+  text-align: center;
+  padding: 0 0 0 0;
+  font-weight: 400;
+  padding: 0 40px;
+}
+
+.team .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
