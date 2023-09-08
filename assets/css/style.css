@@ -379,7 +379,7 @@ li {
   background-color: #F0F7DA;
   background-size: cover;
   position: relative;
-  padding-top: 50px;
+
 }
 
 #hero:before {
@@ -396,11 +396,12 @@ li {
   font-size: 48px;
   font-weight: 700;
   color: #2D6073;
+  line-height: 105%;
 }
 
 #hero h2 {
   color: #2D6073;
-  margin: 35px 0 0 0;
+  margin: 3vh 0 0 0;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -424,6 +425,21 @@ li {
   color: #2D6073;
   background: transparent;
   border-color: #2D6073;
+}
+
+.rowhero {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.subtitulo-hero {
+  padding-top: 20px;
+}
+.img-hero {
+  max-width: 150%;
+  height: auto;
+
 }
 
 @media (max-width: 768px) {
