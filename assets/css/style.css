@@ -2426,6 +2426,7 @@ font-weight: 450;
 
 #nuestro {
   padding-top: 130px;
+  background-color: #e4eace;
 }
 
 
@@ -2589,4 +2590,10 @@ font-weight: 450;
 .team .member:hover .social {
   opacity: 1;
   bottom: 15px;
+}
+
+.rowteam {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
