@@ -2574,12 +2574,11 @@ font-weight: 450;
 }
 
 .team .member .member-porque h4 {
-  font-weight: 800;
+  font-weight: 600;
   margin-bottom: 15px;
-  font-size: 15px;
-  color: #4B3124;
+  font-size: 22px;
+  color: #403B33;
   text-align: center;
-  letter-spacing: 2.2px;
 }
 
 .team .member .member-porque p {
