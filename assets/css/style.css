@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: #F0F7DA;
 }
 
@@ -432,17 +432,17 @@ li {
 .rowhero {
   display: flex;
   text-align: left;
-  align-items: center;
+  align-items: right;
 }
 
 .subtitulo-hero {
   padding-top: 20px;
+  padding-bottom: 50px;
 }
 .img-hero {
-  max-width: 100%;
+  max-width: 120%;
   height: auto;
   display: flex;
-  justify-content: center;
 
 }
 
@@ -1257,12 +1257,12 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #2D6073;
+  background: #D3643B;
   text-align: center;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
-  padding-top: 350px;
+  padding-top: 50px;
   margin-left: 20px;
 }
 
@@ -1307,7 +1307,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: #FFC493;
+  color: #ffffff;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1324,9 +1324,9 @@ section {
 
 .pricing .box .btn-buy {
   display: inline-block;
-  padding: 10px 70px 12px 70px;
+  padding: 10px 50px 12px 70px;
   border-radius: 10px;
-  color: #2d6073;
+  color: #D3643B;
   transition: none;
   font-size: 15px;
   font-weight: 400;
@@ -1338,9 +1338,9 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  color: #F0F7DA;
-  background-color: #2d6073;
-  border-color: #F0F7DA;
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
 }
 
 .pricing .featured {
@@ -1348,12 +1348,12 @@ section {
 }
 
 .pricing h3 {
-color: #F0F7DA;
+color: #ffffff;
 
 }
 
 .pricing h1 {
-  color: #fff6db;
+  color: #ffffff;
   }
 
 .pricing a {
@@ -1365,7 +1365,7 @@ color: #F0F7DA;
   }
 
 .pricing h4 {
-  color: #fff6db;
+  color: #ffffff;
   }
 
   .pricing p {
@@ -1373,7 +1373,7 @@ color: #F0F7DA;
     }
 
   .pricing li {
-    color: #F0F7DA;
+    color: #ffffff;
     }
 
     .pricing ul {
