@@ -24,13 +24,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
+h1 
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 
@@ -376,7 +376,7 @@ li {
 #hero {
   width: 100%;
   height: 100vh;
-  background-color: #F0F7DA;
+  background-color: #FFF3E5;
   background-size: cover;
   position: relative;
 
@@ -395,15 +395,17 @@ li {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #2D6073;
+  color: #D3643B;
   line-height: 105%;
+  font-weight: 400;
 }
 
 #hero h2 {
-  color: #2D6073;
-  margin: 3vh 0 0 0;
+  color: #403B33;
+  margin: 0px 0px 0 0;
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 400;
 }
 
 #hero .btn-get-started {
@@ -412,19 +414,19 @@ li {
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 10px 80px;
   border-radius: 10px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #F0F7DA;
-  background: #2D6073;
-  border: 2px solid #2D6073;
+  color: #ffffff;
+  background: #D3643B;
+  border: 2px solid #D3643B;
 }
 
 #hero .btn-get-started:hover {
-  color: #2D6073;
+  color: #D3643B;
   background: transparent;
-  border-color: #2D6073;
+  border-color: #D3643B;
 }
 
 .rowhero {
@@ -439,6 +441,8 @@ li {
 .img-hero {
   max-width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -468,8 +472,9 @@ li {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 50px 100px;
-  margin-bottom: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 0px;
   overflow: hidden;
   position: relative;
 }
@@ -500,7 +505,7 @@ section {
 
 .section-bg:before {
   content: "";
-  background: #F0F7DA;
+  background: #FFF3E4;
   position: absolute;
   bottom: 60px;
   top: 60px;
@@ -1468,7 +1473,7 @@ color: #F0F7DA;
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: #241e37;
+  background: #403B33;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1488,7 +1493,7 @@ color: #F0F7DA;
 }
 
 .team h2{
-  color: #241e37;
+  color: #403B33;
 }
 
 
@@ -2390,13 +2395,13 @@ gap: 25px;
 
 
   #banner h2 {
-color: #ffffff;
+color: #403B33;
 font-size: 40px;
 font-weight: 450;
   }
 
   #banner {
-    background-color: #65b8a6;
+    background-color: #F3D7BC;
     margin: 0px;
     text-align: center;
     padding-bottom: 40px;
@@ -2406,7 +2411,7 @@ font-weight: 450;
           
 
       #banner-2 h2 {
-        color: #ffffff;
+        color: #403B33;
         font-size: 30px;
         font-weight: 450;
           }
@@ -2426,7 +2431,7 @@ font-weight: 450;
 
 #nuestro {
   padding-top: 130px;
-  background-color: #e4eace;
+  background-color: #FFFFFF;
 }
 
 
