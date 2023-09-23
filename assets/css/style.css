@@ -375,11 +375,10 @@ li {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   background-color: #FFF3E5;
   background-size:auto;
   position: relative;
-  padding-bottom: 10px;
 
 }
 
@@ -472,8 +471,8 @@ li {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
   margin-bottom: 0px;
   overflow: hidden;
   position: relative;
@@ -814,7 +813,7 @@ section {
 .tabs .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #ff9741;
+  color:#403B33;
 }
 
 .tabs .tab-pane p:last-child {
@@ -830,7 +829,7 @@ section {
   }
   
   .tabs h3{
-  color: #fff6db
+  color: #403B33
   }
 
   .tabs h3{
@@ -857,7 +856,8 @@ section {
   }
   
   .tabs li{
-  color: #ff9741
+  color: #403B33;
+  
   }
 
   .tabs {
@@ -1261,7 +1261,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #D3643B;
+  background: #ED997A;
   text-align: center;
   border-radius: 20px;
   position: relative;
@@ -1373,7 +1373,7 @@ color: #ffffff;
   }
 
   .pricing p {
-    color: #1F192F;
+    color: #ffffff;
     }
 
   .pricing li {
@@ -2402,13 +2402,13 @@ gap: 25px;
 
 
   #banner h2 {
-color: #403B33;
+color: #ffffff;
 font-size: 40px;
 font-weight: 450;
   }
 
   #banner {
-    background-color: #F3D7BC;
+    background-color: #D3643B;
     margin: 0px;
     text-align: center;
     padding-bottom: 30px;
@@ -2621,23 +2621,6 @@ font-weight: 450;
 }
 
 
-/*--------------------------------------------------------------
-# Banner 2
---------------------------------------------------------------*/
-
-#banner2 {
-  background-color: #D3643B;
-  margin: 0px;
-  text-align: center;
-  padding-bottom: 40px;
-  padding-top: 50px;
-    }
-
-    #banner2 h2 {
-      color: #FFF3E5;
-      font-size: 40px;
-      font-weight: 450;
-        }
 
 
 /*--------------------------------------------------------------
