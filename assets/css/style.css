@@ -395,10 +395,9 @@ li {
 #hero h1 {
   margin: 0;
   font-size: 48px;
-  font-weight: 700;
   color: #D3643B;
   line-height: 105%;
-  font-weight: 400;
+  font-weight: 100;
 }
 
 #hero h2 {
@@ -827,7 +826,7 @@ section {
   }
   
   .tabs h2{
-  color: #1F192F
+  color: #4C473E
   }
   
   .tabs h3{
@@ -1231,7 +1230,7 @@ section {
 }
 
 .testimonials h2 {
-  color: #1e192f;
+  color: #4C473E;
 }
 
 .testimonials h3 {
@@ -1498,7 +1497,7 @@ color: #ffffff;
 }
 
 .team h2{
-  color: #403B33;
+  color: #4C473E;
 }
 
 
@@ -1682,7 +1681,7 @@ background-color: #403B33;
   }
   
   .contact h2{
-  color: #1F192F
+  color: #4C473E
   }
   
   .contact h3{
@@ -2412,8 +2411,8 @@ font-weight: 450;
     background-color: #F3D7BC;
     margin: 0px;
     text-align: center;
-    padding-bottom: 40px;
-    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-top: 40px;
       }
 
           
@@ -2428,8 +2427,8 @@ font-weight: 450;
             background-color: #65b8a6;
             margin: 0px;
             text-align: center;
-            padding-bottom: 40px;
-            padding-top: 50px;
+            padding-bottom: 30px;
+            padding-top: 40px;
               }
   
 
