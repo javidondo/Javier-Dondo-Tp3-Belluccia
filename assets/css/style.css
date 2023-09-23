@@ -377,8 +377,9 @@ li {
   width: 100%;
   height: 100vh;
   background-color: #FFF3E5;
-  background-size: cover;
+  background-size:auto;
   position: relative;
+  padding-bottom: 10px;
 
 }
 
@@ -2640,3 +2641,20 @@ font-weight: 450;
         }
 
 
+/*--------------------------------------------------------------
+# Steps
+--------------------------------------------------------------*/
+
+        #steps {
+          padding-top: 130px;
+          background-color: #FFFFFF;
+        }
+
+        /*--------------------------------------------------------------
+# Informacion
+--------------------------------------------------------------*/
+
+#informacion {
+  padding-top: 130px;
+  background-color: #FFF3E5;
+}
