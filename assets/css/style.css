@@ -863,7 +863,10 @@ section {
   .tabs {
     padding-top: 100px;
     padding-bottom: 150px;
+    padding-right: 0px;
+      padding-left: 0px;
     }
+
 
 
 
@@ -1557,6 +1560,8 @@ background-color: #FFF3E4;
 
 .contact {
   padding-bottom: 150px;
+  padding-right: 0px;
+padding-left: 0px;
 }
 
 .contact .info-box i {
@@ -1585,6 +1590,7 @@ background-color: #FFF3E4;
   padding: 30px;
   border-radius: 12px;
 background-color: #403B33;
+margin: 200px;
 }
 
 .contact .php-email-form .error-message {
@@ -1662,7 +1668,8 @@ background-color: #403B33;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #65B8A5;
+  background: #ffffff;
+  color: #D3643B;
 }
 
 
@@ -2657,3 +2664,4 @@ font-weight: 450;
   padding-right: 100px;
   padding-bottom: 100px;
 }
+
