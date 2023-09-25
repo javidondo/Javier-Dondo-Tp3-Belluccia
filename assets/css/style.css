@@ -1268,6 +1268,7 @@ section {
   overflow: hidden;
   padding-top: 50px;
   margin-left: 20px;
+  border: 5px solid rgba(250, 250, 250, 0.3);
 }
 
 
@@ -2315,6 +2316,8 @@ background-color: #403B33;
 
 #footer .footer-newsletter {
   font-size: 15px;
+
+
 }
 
 #footer .footer-newsletter h4 {
@@ -2639,4 +2642,18 @@ font-weight: 450;
 #informacion {
   padding-top: 130px;
   background-color: #FFF3E5;
+}
+
+
+
+/*--------------------------------------------------------------
+# Equipo
+--------------------------------------------------------------*/
+
+#equipo {
+  background-color: #F3D7BC;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
 }
