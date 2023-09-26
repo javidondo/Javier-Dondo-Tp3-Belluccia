@@ -379,7 +379,7 @@ li {
   background-color: #FFF3E5;
   background-size:auto;
   position: relative;
-  padding-top: 250px;
+  padding-top: 150px;
   padding-bottom: 50px;
 
 }
@@ -398,7 +398,7 @@ li {
   font-size: 48px;
   color: #D3643B;
   line-height: 105%;
-  font-weight: 100;
+  font-weight: 600;
 }
 
 #hero h2 {
@@ -433,7 +433,7 @@ li {
 .rowhero {
   display: flex;
   text-align: left;
-  align-items: right;
+  align-items: center;
 }
 
 .subtitulo-hero {
@@ -1453,6 +1453,7 @@ color: #ffffff;
 }
 
 
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -1598,6 +1599,7 @@ padding-left: 0px;
   border-radius: 12px;
 background-color: #403B33;
 margin: 200px;
+margin: 0px 300px;
 }
 
 .contact .php-email-form .error-message {
@@ -2634,7 +2636,8 @@ font-weight: 450;
 .rowteam {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  
 }
 
 
@@ -2700,3 +2703,11 @@ font-weight: 450;
   background-color: #FFF3E5;
 }
 
+
+.row {
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  cursor: pointer}
