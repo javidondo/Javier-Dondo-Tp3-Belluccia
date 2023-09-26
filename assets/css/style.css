@@ -2672,6 +2672,13 @@ font-weight: 450;
   padding-bottom: 100px;
 }
 
+#equipo h3 {
+  color: #403B33;
+}
+
+#equipo p {
+  color: #403B33;
+}
 
 /*--------------------------------------------------------------
 # Outfits
@@ -2681,5 +2688,15 @@ font-weight: 450;
   padding-top: 130px;
   background-color: #FFF3E5;
   margin-bottom: 200px;
+}
+
+
+/*--------------------------------------------------------------
+# Perfiles
+--------------------------------------------------------------*/
+
+#perfiles {
+  padding-top: 130px;
+  background-color: #FFF3E5;
 }
 
