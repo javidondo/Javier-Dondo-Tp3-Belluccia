@@ -2724,15 +2724,26 @@ a {
   padding-bottom: 100px;
 }
 
+#items-detail h4 {
+  font-weight: 100;
+}
 
-  /*--------------------------------------------------------------
-# Outfits - detail
+ /*--------------------------------------------------------------
+# Beneficios - detail
 --------------------------------------------------------------*/
 
-#outfits-detail {
-  background-color: #FFF3E4;
+#beneficios-detail {
+  background-color: #ffffff;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
+
+#beneficios-detail h4 {
+  font-weight: 100;
+}
+
+
+
 
  /*--------------------------------------------------------------
 # Steps - detail
@@ -2804,13 +2815,13 @@ a {
 }
 
 /*--------------------------------------------------------------
-# beneficios - detail
+# outfits - detail
 --------------------------------------------------------------*/
 
-#beneficios-detail {
+#outfits-detail {
+  background-color: #FFF3E4;
   padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #ffffff;
+  padding-bottom: 200px;
 }
 
 
