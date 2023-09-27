@@ -2745,3 +2745,64 @@ a {
   padding-bottom: 50px;
 }
 
+/*--------------------------------------------------------------
+# Hero - detail
+--------------------------------------------------------------*/
+
+#hero-detail {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #FFF3E5;
+}
+
+#hero-detail h1 {
+  color:#D3643B ;
+  font-size: 60px;
+}
+
+#hero-detail h2 {
+  color:#403B33 ;
+}
+
+
+#hero-detail .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 80px;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #ffffff;
+  background: #D3643B;
+  border: 2px solid #D3643B;
+}
+
+#hero-detail .btn-get-started:hover {
+  color: #D3643B;
+  background: transparent;
+  border-color: #D3643B;
+}
+
+
+ /*--------------------------------------------------------------
+# Pay - detail
+--------------------------------------------------------------*/
+
+#pay-detail {
+  background-color: #D3643B;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#pay-detail h2 {
+  padding-top: 50px;
+  color: #ffffff;
+}
+
+
+
+
