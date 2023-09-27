@@ -739,7 +739,7 @@ section {
 }
 
 .tabs  {
-  background-color: #ffffff;
+  background-color: #FFF3E4;
 }
 
 
@@ -2677,6 +2677,7 @@ font-weight: 450;
 
 #equipo h3 {
   color: #403B33;
+  padding-bottom: 50px;
 }
 
 #equipo p {
@@ -2823,6 +2824,25 @@ a {
   padding-top: 100px;
   padding-bottom: 200px;
 }
+
+/*--------------------------------------------------------------
+# Info - detail
+--------------------------------------------------------------*/
+
+#info {
+  background-color: #fefefe;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#info h3 {
+ color: #403B33;
+ padding-bottom: 50px;
+}
+
+#info p {
+  color: #403B33;
+ }
 
 
 
