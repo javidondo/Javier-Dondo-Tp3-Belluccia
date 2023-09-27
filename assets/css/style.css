@@ -2836,13 +2836,33 @@ a {
 }
 
 #info h3 {
- color: #403B33;
- padding-bottom: 50px;
+color: #403B33;
+padding-bottom: 50px;
 }
 
 #info p {
   color: #403B33;
- }
+}
 
 
 
+@media (max-width: 768px) {
+
+section {
+padding-right: 0px;
+padding-left: 0px;
+}
+
+#equipo {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.contact .php-email-form {
+margin: 0px;
+}
+
+.rowhero {
+flex-direction: column;
+}
+}
