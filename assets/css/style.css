@@ -1600,8 +1600,8 @@ padding-left: 0px;
   padding: 30px;
   border-radius: 12px;
 background-color: #403B33;
-margin: 200px;
-margin: 0px 300px;
+margin-left: 500px;
+margin-right: 500px;
 }
 
 .contact .php-email-form .error-message {
@@ -2851,17 +2851,20 @@ padding-bottom: 50px;
 @media (max-width: 768px) {
 
 section {
-padding-right: 0px;
-padding-left: 0px;
+padding-right: 30px;
+padding-left: 30px;
 }
 
 #equipo {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .contact .php-email-form {
 margin: 0px;
+margin-right: 50px;
+margin-left: 50px;
+
 }
 
 .rowhero {
