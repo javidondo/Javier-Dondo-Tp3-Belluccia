@@ -508,8 +508,8 @@ section {
   content: "";
   background: #FFF3E4;
   position: absolute;
-  bottom: 60px;
-  top: 60px;
+  bottom: 0px;
+  top: 0px;
   left: 0;
   right: 0;
 }
@@ -1286,9 +1286,8 @@ section {
 .pricing .box h3 {
   font-weight: 400;
   padding: 15px;
-  font-size: 18px;
+  font-size: 35px;
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 .pricing .box h4 {
@@ -1364,6 +1363,7 @@ section {
 
 .pricing h3 {
 color: #ffffff;
+font-size: 100px;
 
 }
 
@@ -1377,10 +1377,12 @@ color: #ffffff;
 
 .pricing h2 {
   color: #403B33;
+  padding-bottom: 70px;
   }
 
 .pricing h4 {
   color: #ffffff;
+  font-weight: 700
   }
 
   .pricing p {
@@ -2805,13 +2807,13 @@ a {
 
 #pay-detail {
   background-color: #D3643B;
-  padding-top: 50px;
+  padding-top: 0px;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 #pay-detail h2 {
-  padding-top: 50px;
+  margin-top: 75px;
   color: #ffffff;
 }
 
